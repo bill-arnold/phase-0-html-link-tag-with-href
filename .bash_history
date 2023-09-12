@@ -690,3 +690,20 @@ apt list --upgradable
 sudo apt update
 sudo apt install sudo apt update
 sudo apt update
+"Love Will Tear Us Apart"
+"Bela Lugosi's Dead"
+"A Forest"
+"Nine While Nine"
+"Girlfriend In a Coma"
+touch my_list.html
+cd ~ touch my_list.html
+cd ~
+touch my_list.html
+code my_list.html
+explorer.exe my_list.html
+git remote -v
+git push git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git
+clear
+git clone git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git
+bundle
+code

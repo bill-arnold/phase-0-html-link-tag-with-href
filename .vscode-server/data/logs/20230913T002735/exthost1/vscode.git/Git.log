@@ -1,0 +1,17 @@
+2023-09-13 00:27:41.812 [info] Log level: Info
+2023-09-13 00:27:41.812 [info] Validating found git in: "git"
+2023-09-13 00:27:41.812 [info] Using git "2.25.1" from "git"
+2023-09-13 00:28:51.383 [info] > git clone git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git /home/bill/phase-0-html-experiencing-html-lab/phase-0-html-experiencing-html-lab-1 --progress [3280ms]
+2023-09-13 00:28:51.383 [info] Cloning into '/home/bill/phase-0-html-experiencing-html-lab/phase-0-html-experiencing-html-lab-1'...
+ERROR: We're doing an SSH key audit.
+Reason: unverified automatically (private key found in a public repository)
+Please visit https://github.com/settings/keys/87454419
+to approve this key so we know it's safe.
+
+Fingerprint:
+SHA256:Aq/JpP7bCX93IiHnfoTSwvBmZxFc0N0qUBy9SsDl8kU
+
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
