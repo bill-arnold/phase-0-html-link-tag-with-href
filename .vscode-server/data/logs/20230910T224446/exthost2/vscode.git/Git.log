@@ -1,0 +1,46 @@
+2023-09-10 22:46:51.002 [info] Log level: Info
+2023-09-10 22:46:51.002 [info] Validating found git in: "git"
+2023-09-10 22:46:51.002 [info] Using git "2.25.1" from "git"
+2023-09-10 22:46:51.039 [info] > git rev-parse --show-toplevel [35ms]
+2023-09-10 22:46:51.039 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-10 22:54:58.608 [info] > git rev-parse --show-toplevel [3ms]
+2023-09-10 22:54:58.608 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-09-10 23:17:52.267 [info] > git init [10ms]
+2023-09-10 23:17:52.883 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-10 23:17:52.902 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2023-09-10 23:17:52.930 [info] Open repository: /home/bill/my_list.txt
+2023-09-10 23:17:52.953 [info] No remotes found in the git config file.
+2023-09-10 23:17:52.955 [info] > git config --get commit.template [13ms]
+2023-09-10 23:17:52.956 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-09-10 23:17:52.969 [info] > git status -z -uall [4ms]
+2023-09-10 23:17:52.995 [info] > git config --get commit.template [2ms]
+2023-09-10 23:17:53.001 [info] No remotes found in the git config file.
+2023-09-10 23:17:53.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-09-10 23:17:53.012 [info] > git status -z -uall [2ms]
+2023-09-10 23:18:03.582 [info] > git remote add origin https://github.com/bill-arnold/my_list.txt.git [10ms]
+2023-09-10 23:18:03.601 [info] > git config --get commit.template [11ms]
+2023-09-10 23:18:03.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-10 23:18:03.610 [info] > git status -z -uall [2ms]
+2023-09-10 23:18:03.726 [info] > git push -u origin master [103ms]
+2023-09-10 23:18:03.726 [info] error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/bill-arnold/my_list.txt.git'
+2023-09-10 23:18:03.742 [info] > git config --get commit.template [6ms]
+2023-09-10 23:18:03.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-09-10 23:18:03.752 [info] > git status -z -uall [1ms]
+2023-09-10 23:18:10.978 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-10 23:19:07.860 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-10 23:49:00.939 [info] > git config --get commit.template [4ms]
+2023-09-10 23:49:00.956 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-09-10 23:49:00.967 [info] > git status -z -uall [2ms]
+2023-09-11 00:01:18.919 [info] > git config --get commit.template [5ms]
+2023-09-11 00:01:18.932 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-09-11 00:01:18.946 [info] > git status -z -uall [4ms]
+2023-09-11 00:03:06.371 [info] > git config --get commit.template [17ms]
+2023-09-11 00:03:06.372 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-09-11 00:03:06.388 [info] > git status -z -uall [3ms]
+2023-09-11 00:03:34.370 [info] > git config --get commit.template [21ms]
+2023-09-11 00:03:34.372 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-09-11 00:03:34.392 [info] > git status -z -uall [4ms]
+2023-09-11 00:05:33.355 [info] > git config --get commit.template [15ms]
+2023-09-11 00:05:33.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-09-11 00:05:33.371 [info] > git status -z -uall [4ms]

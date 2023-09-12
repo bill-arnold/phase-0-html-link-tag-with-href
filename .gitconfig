@@ -1,0 +1,7 @@
+[color]
+	ui = true
+[user]
+	name = bill-arnold
+	email = bill.arnold@student.moringaschool.com
+[init]
+	defaultBranch = main

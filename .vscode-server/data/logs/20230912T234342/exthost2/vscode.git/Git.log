@@ -1,0 +1,19 @@
+2023-09-12 23:44:54.494 [info] Log level: Info
+2023-09-12 23:44:54.494 [info] Validating found git in: "git"
+2023-09-12 23:44:54.494 [info] Using git "2.25.1" from "git"
+2023-09-12 23:44:54.494 [info] > git rev-parse --show-toplevel [68ms]
+2023-09-12 23:44:54.494 [info] > git rev-parse --git-dir --git-common-dir [22ms]
+2023-09-12 23:44:54.494 [info] Open repository: /home/bill/phase-0-html-experiencing-html-lab/phase-0-html-experiencing-html-lab
+2023-09-12 23:44:54.626 [info] > git rev-parse --show-toplevel [100ms]
+2023-09-12 23:44:54.630 [info] > git config --get commit.template [114ms]
+2023-09-12 23:44:54.697 [info] > git rev-parse --show-toplevel [56ms]
+2023-09-12 23:44:54.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2023-09-12 23:44:54.717 [info] > git status -z -uall [4ms]
+2023-09-12 23:44:54.747 [info] > git config --get commit.template [6ms]
+2023-09-12 23:44:54.760 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-09-12 23:44:54.773 [info] > git status -z -uall [4ms]
+2023-09-12 23:44:55.135 [info] > git check-ignore -v -z --stdin [2ms]
+2023-09-12 23:44:56.987 [info] > git show --textconv :CONTRIBUTING.md [153ms]
+2023-09-12 23:44:56.990 [info] > git ls-files --stage -- /home/bill/phase-0-html-experiencing-html-lab/phase-0-html-experiencing-html-lab/CONTRIBUTING.md [146ms]
+2023-09-12 23:44:57.009 [info] > git cat-file -s 4d01fe8487ea47babac2e06c06ae98d61c3fe2bd [8ms]
+2023-09-12 23:45:00.516 [info] > git check-ignore -v -z --stdin [9ms]

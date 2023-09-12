@@ -1,0 +1,23 @@
+2023-09-11 11:27:18.094 [info] Log level: Info
+2023-09-11 11:27:18.094 [info] Validating found git in: "git"
+2023-09-11 11:27:18.094 [info] Using git "2.25.1" from "git"
+2023-09-11 11:27:18.094 [info] > git rev-parse --show-toplevel [111ms]
+2023-09-11 11:27:18.102 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2023-09-11 11:27:18.127 [info] Open repository: /home/bill/my_list.txt
+2023-09-11 11:27:18.179 [info] > git config --get commit.template [29ms]
+2023-09-11 11:27:18.185 [info] > git rev-parse --show-toplevel [21ms]
+2023-09-11 11:27:18.207 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2023-09-11 11:27:18.250 [info] > git status -z -uall [32ms]
+2023-09-11 11:27:18.278 [info] > git config --get commit.template [9ms]
+2023-09-11 11:27:18.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-09-11 11:27:18.292 [info] > git status -z -uall [2ms]
+2023-09-11 11:27:29.605 [info] > git rev-parse --show-toplevel [1ms]
+2023-09-11 11:31:57.812 [info] > git config --get commit.template [2ms]
+2023-09-11 11:31:57.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-11 11:31:57.831 [info] > git status -z -uall [1ms]
+2023-09-11 11:34:01.935 [info] > git config --get commit.template [3ms]
+2023-09-11 11:34:01.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-09-11 11:34:01.951 [info] > git status -z -uall [1ms]
+2023-09-11 11:37:24.034 [info] > git config --get commit.template [2ms]
+2023-09-11 11:37:24.042 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-09-11 11:37:24.051 [info] > git status -z -uall [1ms]
