@@ -1,0 +1,24 @@
+2023-09-13 00:56:56.534 [info] 
+
+
+
+
+2023-09-13 00:56:56.630 [info] Extension host agent started.
+2023-09-13 00:56:57.978 [info] [127.0.0.1][ec0cd641][ManagementConnection] New connection established.
+2023-09-13 00:56:57.991 [info] [127.0.0.1][00fe8c96][ExtensionHostConnection] New connection established.
+2023-09-13 00:56:59.719 [info] [127.0.0.1][00fe8c96][ExtensionHostConnection] <18965> Launched Extension Host Process.
+2023-09-13 00:57:23.396 [info] [127.0.0.1][ec0cd641][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-09-13 00:57:23.399 [error] Error: Throttler is disposed
+    at c.queue (/home/bill/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /home/bill/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /home/bill/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)
+2023-09-13 00:57:23.413 [error] Error: Throttler is disposed
+    at c.queue (/home/bill/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:13632)
+    at /home/bill/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:15216
+    at /home/bill/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/server/node/server.main.js:70:14852
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7)

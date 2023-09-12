@@ -707,3 +707,45 @@ clear
 git clone git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git
 bundle
 code
+rspec
+git add .
+git push --set-upstream origin main
+git commit - 
+git commit - git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git
+git add .
+git push
+clear
+mkdir my_list.txt
+clear
+git clone git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git
+cd git clone git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git
+cd ~
+git clone git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git
+cd ~ git clone git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git
+touch my_list.txt
+code my_list.txt
+code
+bundle
+npm
+git clone git@github.com:bill-arnold/phase-0-html-tag-lab.git
+git clone git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git
+cd phase-0-html-experiencing-html-lab   # Navigate to the existing directory
+git pull origin main   # Assuming you want to update the 'main' branch
+code
+rm -r phase-0-html-experiencing-html-lab   # Delete existing directory and its contents
+git commit git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git
+# Clone the GitHub repository to your local machine
+git clone git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git
+# Navigate to the cloned repository directory
+cd phase-0-html-experiencing-html-lab
+# Make changes to the files
+# Stage your changes
+git add .
+# Commit your changes with a commit message
+git commit -m "Your commit message here"
+# Push your changes to GitHub (optional)
+git push
+code
+cd index.html
+touch index.html
+cd index.html
