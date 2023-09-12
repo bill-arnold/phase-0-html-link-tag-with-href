@@ -749,3 +749,21 @@ code
 cd index.html
 touch index.html
 cd index.html
+bindle
+bundle
+sudo apt install ruby-bundler
+cd`~ index.html
+
+cd
+cd`~ index.html
+cd ~ index.html
+123
+clear
+git push git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git
+git commit -
+git push --set-upstream origin main
+git clone git@github.com:bill-arnold/phase-0-html-experiencing-html-lab.git
+cd phase-0-html-experiencing-html-lab
+git pull
+git add .
+clear

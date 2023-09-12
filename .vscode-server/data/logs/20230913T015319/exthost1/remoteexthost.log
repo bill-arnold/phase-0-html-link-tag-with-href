@@ -1,17 +1,14 @@
-2023-09-11 11:27:16.116 [info] Extension host with pid 248 started
-2023-09-11 11:27:16.390 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
-2023-09-11 11:27:16.394 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2023-09-11 11:27:16.767 [info] Lock '/home/bill/.vscode-server/data/User/workspaceStorage/c30307f6a9fd3fcc3a69e69a5300cf41/vscode.lock': Lock acquired.
-2023-09-11 11:27:17.398 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2023-09-11 11:27:17.421 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
-2023-09-11 11:27:17.422 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2023-09-11 11:27:17.879 [info] Eager extensions activated
-2023-09-11 11:27:17.880 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
-2023-09-11 11:27:17.880 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
-2023-09-11 11:29:44.552 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
-2023-09-11 11:38:09.023 [info] Extension host terminating: received terminate message from renderer
-2023-09-11 11:38:09.024 [info] Lock '/home/bill/.vscode-server/data/User/workspaceStorage/c30307f6a9fd3fcc3a69e69a5300cf41/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
-2023-09-11 11:38:09.120 [error] Canceled: Canceled
+2023-09-13 01:53:23.843 [info] Extension host with pid 26547 started
+2023-09-13 01:53:24.003 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-09-13 01:53:24.008 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-13 01:53:25.020 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-13 01:53:25.098 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-13 01:53:25.098 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-13 01:53:26.234 [info] Eager extensions activated
+2023-09-13 01:53:26.236 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-13 01:53:26.237 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-13 02:02:38.920 [info] Extension host terminating: received terminate message from renderer
+2023-09-13 02:02:39.054 [error] Canceled: Canceled
 	at new h (/home/bill/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:108:57382)
 	at i.O (/home/bill/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:10850)
 	at j.<computed>.T.charCodeAt.j.<computed> (/home/bill/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:8289)
@@ -64,7 +61,7 @@
 	at readableAddChunk (node:internal/streams/readable:297:9)
 	at Readable.push (node:internal/streams/readable:234:10)
 	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
-2023-09-11 11:38:09.121 [error] Canceled: Canceled
+2023-09-13 02:02:39.068 [error] Canceled: Canceled
 	at new h (/home/bill/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:108:57382)
 	at i.O (/home/bill/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:10850)
 	at j.<computed>.T.charCodeAt.j.<computed> (/home/bill/.vscode-server/bin/8b617bd08fd9e3fc94d14adb8d358b56e3f72314/out/vs/workbench/api/node/extensionHostProcess.js:117:8289)

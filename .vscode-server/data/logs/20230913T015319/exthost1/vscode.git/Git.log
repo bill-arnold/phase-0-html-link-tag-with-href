@@ -1,0 +1,51 @@
+2023-09-13 01:53:26.827 [info] Log level: Info
+2023-09-13 01:53:26.827 [info] Validating found git in: "git"
+2023-09-13 01:53:26.827 [info] Using git "2.25.1" from "git"
+2023-09-13 01:53:26.827 [info] > git rev-parse --show-toplevel [171ms]
+2023-09-13 01:53:26.827 [info] > git rev-parse --git-dir --git-common-dir [77ms]
+2023-09-13 01:53:26.827 [info] Open repository: /home/bill
+2023-09-13 01:53:26.827 [info] > git config --get commit.template [83ms]
+2023-09-13 01:53:26.867 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2023-09-13 01:53:27.138 [info] > git status -z -uall [260ms]
+2023-09-13 01:53:27.138 [info] > git show --textconv :index.html [25ms]
+2023-09-13 01:53:27.199 [info] > git ls-files --stage -- /home/bill/index.html [69ms]
+2023-09-13 01:53:27.215 [info] > git config --get commit.template [19ms]
+2023-09-13 01:53:27.227 [info] > git cat-file -s ab98a0d7d190b37b9d947206c08fd6ade3ffc8ee [21ms]
+2023-09-13 01:53:27.504 [info] > git check-ignore -v -z --stdin [16ms]
+2023-09-13 01:53:27.507 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [268ms]
+2023-09-13 01:53:27.692 [info] > git status -z -uall [175ms]
+2023-09-13 01:53:30.334 [info] > git config --get commit.template [3ms]
+2023-09-13 01:53:30.344 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-09-13 01:53:30.439 [info] > git status -z -uall [89ms]
+2023-09-13 02:00:42.038 [info] > git config --get commit.template [15ms]
+2023-09-13 02:00:42.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-09-13 02:00:42.153 [info] > git status -z -uall [104ms]
+2023-09-13 02:01:05.154 [info] > git check-ignore -v -z --stdin [12ms]
+2023-09-13 02:01:35.592 [info] > git add -A -- . [192ms]
+2023-09-13 02:01:35.592 [info] warning: adding embedded git repository: phase-0-html-link-tag-with-href
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> phase-0-html-link-tag-with-href
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached phase-0-html-link-tag-with-href
+hint: 
+hint: See "git help submodule" for more information.
+2023-09-13 02:01:36.338 [info] > git show --textconv :.git/COMMIT_EDITMSG [19ms]
+2023-09-13 02:01:36.344 [info] > git ls-files --stage -- /home/bill/.git/COMMIT_EDITMSG [7ms]
+2023-09-13 02:01:36.563 [info] > git check-ignore -v -z --stdin [6ms]
+2023-09-13 02:01:37.107 [info] > git ls-files --stage -- /home/bill/index.html [11ms]
+2023-09-13 02:01:37.116 [info] > git ls-files --stage -- /home/bill/.git/COMMIT_EDITMSG [10ms]
+2023-09-13 02:01:37.117 [info] > git cat-file -s 45de8431f40713b0f14dd128e8497b139edc1558 [3ms]
+2023-09-13 02:01:37.141 [info] > git show --textconv :.git/COMMIT_EDITMSG [11ms]
+2023-09-13 02:01:37.145 [info] > git show --textconv :index.html [5ms]
+2023-09-13 02:02:06.231 [info] > git -c user.useConfigOnly=true commit --quiet [30625ms]
+2023-09-13 02:02:06.231 [info] Aborting commit due to empty commit message.
+2023-09-13 02:02:06.246 [info] > git config --get commit.template [3ms]
+2023-09-13 02:02:06.267 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-09-13 02:02:06.414 [info] > git status -z -uall [134ms]
